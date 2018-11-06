@@ -1,4 +1,4 @@
-class rg < Formula
+class Rg < Formula
   version '0.10.0'
   desc "Recursively search directories for a regexattern."
   homepage "https://github.com/BurntSushi/ripgrep"

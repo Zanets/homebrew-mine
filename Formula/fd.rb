@@ -1,4 +1,4 @@
-class fd < Formula
+class Fd < Formula
   version '7.2.0'
   desc "A simple, fast and user-friendly alternative to 'find'."
   homepage "https://github.com/sharkdp/fd"
