@@ -1,4 +1,4 @@
-class Rg < Formula
+class Bat < Formula
   version '0.8.0'
   desc "A cat(1) clone with wings."
   homepage "https://github.com/sharkdp/bat"
