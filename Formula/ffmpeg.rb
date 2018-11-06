@@ -1,4 +1,4 @@
-class FFmpeg < Formula
+class Ffmpeg < Formula
   version '4.1'
   desc "A complete, cross-platform solution to record, convert and stream audio and video."
   homepage "https://www.ffmpeg.org/"
