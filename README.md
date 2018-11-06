@@ -4,4 +4,4 @@ Collections of precompiled formula.
 
 # Why
 
-One day I ```brew install ffmpeg; brew list```, so I decided to do this. ¯\\\_(ツ)\_/¯
+Because one day I ```brew install ffmpeg; brew list```. ¯\\\_(ツ)\_/¯
