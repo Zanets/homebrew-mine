@@ -17,6 +17,6 @@ class Fd < Formula
 
     bash_completion.install "autocomplete/fd.bash-completion"
     fish_completion.install "autocomplete/fd.fish"
-    zsh_completion.install "autocomplete/_rg"
+    zsh_completion.install "autocomplete/_fd"
   end
 end
