@@ -8,7 +8,7 @@ class Annie < Formula
     sha256 "546d5412e70de9a53129554344a7230129de929de2a694c25316508b089696b8"
   elsif OS.linux?
     url "https://github.com/iawia002/annie/releases/download/#{version}/annie_#{version}_Linux_64-bit.tar.gz"
-    sha256 "b27690640102271bc0af7bd8fb95d9b1f64a770ee5bbd2c01e12be274e01f026"
+    sha256 "e1173ad44456403e4ce9a95fa6676216870a29b0f3bc45111eb6debf5b96d64f"
   end
 
 
