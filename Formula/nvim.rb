@@ -1,14 +1,14 @@
 class Nvim < Formula
-  version '0.3.8'
+  version '0.4.2'
   desc "Vim-fork focused on extensibility and usability."
   homepage "https://github.com/neovim/neovim"
 
   if OS.mac?
     url "https://github.com/neovim/neovim/releases/download/v#{version}/nvim-macos.tar.gz"
-    sha256 "f0b0774e9a4f576058a76412b88405a56f984c4c261ab977e379e23e8f10ae34"
+    sha256 "bf701dfaa456d0e82f7c3fb885861af1282438cc9622853ca76b22d90d0a2516"
   elsif OS.linux?
     url "https://github.com/neovim/neovim/releases/download/v#{version}/nvim-linux64.tar.gz"
-    sha256 "30440b0eb4eb0adbf09c458891e81880c9efe5245b52316e9af1c08136088e6a"
+    sha256 "254a889274a758ce71c0ae619410616c5e26aeece3e9b6403779c9b7625b23e6"
   end
 
 
