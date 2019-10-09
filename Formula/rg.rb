@@ -8,7 +8,7 @@ class Rg < Formula
     sha256 "0ba26423691deedf2649b12b1abe3d2be294ee1cb17c40b68fe85efe194f4f57"
   elsif OS.linux?
     url "https://github.com/BurntSushi/ripgrep/releases/download/#{version}/ripgrep-#{version}-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "b1c97f523ef0d32ad559f9d1dbfa2e94835245b98c45542787021a56af296791"
+    sha256 "2e7978e346553fbc45c0940d9fa11e12f9afbae8213b261aad19b698150e169a"
   end
 
   conflicts_with "ripgrep"
