@@ -5,7 +5,7 @@ class Global < Formula
 
   if OS.linux?
     url "https://github.com/Zanets/universal-ctags-release/releases/download/global-#{version}/global-#{version}-x86_64.tar.gz"
-    sha256 "2709a2be8a40a5d267627729cd240df28167347dc202b8e76d14b05978ee1aaa"
+    sha256 "9231983009a5a4fa4f2c2f4897be9cfb03131a7caf3d0ef6a72093bdcc6ea78f"
   end
 
   def install
