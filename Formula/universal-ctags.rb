@@ -1,11 +1,11 @@
 class UniversalCtags < Formula
-  version '5283b195'
+  version '30cd8e03'
   desc "Maintained ctags implementation"
   homepage "https://github.com/universal-ctags/ctags"
 
   if OS.linux?
     url "https://github.com/Zanets/universal-ctags-release/releases/download/#{version}/universal-ctags-#{version}-x86_64.tar.gz"
-    sha256 "ae6be1db585cb28a73a31cf1cdd9f34c3047a643d4d0537b142f5ffdbd95d247"
+    sha256 "cdc4143a6b54f2ad8fe02578c25b31f27dd6098d0cc4fed9ede557e2aedb8758"  
   end
 
   def install
