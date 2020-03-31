@@ -1,14 +1,14 @@
 class Rg < Formula
-  version '11.0.2'
+  version '12.0.1'
   desc "Recursively search directories for a regexattern."
   homepage "https://github.com/BurntSushi/ripgrep"
 
   if OS.mac?
     url "https://github.com/BurntSushi/ripgrep/releases/download/#{version}/ripgrep-#{version}-x86_64-apple-darwin.tar.gz"
-    sha256 "0ba26423691deedf2649b12b1abe3d2be294ee1cb17c40b68fe85efe194f4f57"
+    sha256 "59e78931a7577e76f40c937cae2782f2bbdcb40f056df5dd84247a671373525d"
   elsif OS.linux?
     url "https://github.com/BurntSushi/ripgrep/releases/download/#{version}/ripgrep-#{version}-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "2e7978e346553fbc45c0940d9fa11e12f9afbae8213b261aad19b698150e169a"
+    sha256 "2dbd6e0cef8048f26ea9f0d6b5412f117645001c5cec267b3bcd4716a64a7a7a"
   end
 
   conflicts_with "ripgrep"
