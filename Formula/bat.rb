@@ -1,14 +1,14 @@
 class Bat < Formula
-  version '0.13.0'
+  version '0.15.0'
   desc "A cat(1) clone with wings."
   homepage "https://github.com/sharkdp/bat"
 
   if OS.mac?
     url "https://github.com/sharkdp/bat/releases/download/v#{version}/bat-v#{version}-x86_64-apple-darwin.tar.gz"
-    sha256 "e6b9b00ac30c2920f1a1fb2be57224c314519d55559f9017125671b6368286cd"
+    sha256 "0e5b37a18eef711ad0645b443eacf503fe977ac1a62317b695c8f5012c71904f"
   elsif OS.linux?
     url "https://github.com/sharkdp/bat/releases/download/v#{version}/bat-v#{version}-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "4a1650c2b82eaa92f08f47ce0d0eb72946d3a92ec748672fab2c94920bef7818"
+    sha256 "ebbfdb18237600770eba64f8a80d22b417d7db43d4966908b4a4fa52bea2f929"
   end
 
 
