@@ -4,7 +4,7 @@ class Ffmpeg < Formula
   homepage "https://www.ffmpeg.org/"
 
   if OS.mac?
-    url "https://ffmpeg.zeranoe.com/builds/macos64/static/ffmpeg-#{version}-macos64-static.zip	"
+    url "https://ffmpeg.zeranoe.com/builds/macos64/static/ffmpeg-#{version}-macos64-static.zip"
     sha256 "56bccd1d960c20d2abcac80470710433cb6556cfe62b5495629e6d16c3726ec0"
   elsif OS.linux?
     url "https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz"
