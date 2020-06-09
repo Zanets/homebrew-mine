@@ -6,6 +6,8 @@ class UniversalCtags < Formula
   if OS.linux?
     url "https://github.com/Zanets/universal-ctags-release/releases/download/ctags-#{version}/universal-ctags-#{version}-x86_64.tar.gz"
     sha256 "cdc4143a6b54f2ad8fe02578c25b31f27dd6098d0cc4fed9ede557e2aedb8758"  
+  elsif OS.mac?
+    url "file:///dev/null"
   end
 
   def install
