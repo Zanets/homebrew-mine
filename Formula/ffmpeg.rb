@@ -13,8 +13,6 @@ class Ffmpeg < Formula
 
 
   def install
-    bin.install "bin/ffmpeg"
-	bin.install "bin/ffplay"
-	bin.install "bin/ffprobe"
+    bin.install "ffmpeg"
   end
 end
